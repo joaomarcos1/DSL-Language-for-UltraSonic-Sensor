@@ -38,7 +38,7 @@ void loop()
  distance = int(pulseduration/29);
 
   if (distance < 100){
-  	digitalWrite(ledVermelho, HIGH);
+  	 digitalWrite(ledVermelho, HIGH);
     digitalWrite(ledAmarelo, LOW);
     digitalWrite(ledVerde, LOW);
   }else
@@ -47,11 +47,11 @@ void loop()
       digitalWrite(ledAmarelo, HIGH);
       digitalWrite(ledVerde, LOW);
   	}else
-    if (distance > 200){
-      digitalWrite(ledVermelho, LOW);
-      digitalWrite(ledAmarelo, LOW);
-      digitalWrite(ledVerde, HIGH);
-  	}
+     if (distance > 200){
+       digitalWrite(ledVermelho, LOW);
+       digitalWrite(ledAmarelo, LOW);
+       digitalWrite(ledVerde, HIGH);
+    }
 
  Serial.print("Distance - ");
  Serial.print(distance);
