@@ -3,7 +3,7 @@ int ledVermelho = 13;
 int ledAmarelo = 12;
 int ledVerde = 7;
 int distance;
-unsigned long pulseduration=0;
+unsigned long pulseduration = 0;
 
 
 void setup(){
@@ -14,8 +14,7 @@ void setup(){
  Serial.begin(9600);
 }
 
-void loop()
-{
+void loop(){
 
  pinMode(signal, OUTPUT);
 
