@@ -18,7 +18,7 @@ Componentes utilizados:
 
 Componente| Quantidade 
 ------------- |------------- |
- Sensor de Distância UltraSônico| 01   
+ Sensor de Distância Ultra Sônico| 01   
  Arduino Uno R3 | 01
  LED Vermelho | 01
  LED Amarelo | 01
